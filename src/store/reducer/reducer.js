@@ -1,16 +1,7 @@
 import ActionTypes from '../constant/constant';
 
-<<<<<<< HEAD
 const INITIAL_STATE = { 
     todo: []
-=======
-const INITIAL_STATE = {
-    userName: 'Haider',
-    currentUser:'',
-    users: [],
-    messages: {},
-    recipientID: ''
->>>>>>> ffe0176b1413a63ca91e16cc7fdd9905d4d2aa9e
 }
 
 
@@ -18,7 +9,6 @@ const INITIAL_STATE = {
 
 export default (state = INITIAL_STATE, action) => {
     switch (action.type) {
-<<<<<<< HEAD
         case ActionTypes.TODO:
             return ( state )
         case ActionTypes.UPDATEBUTTON:
@@ -54,33 +44,6 @@ export default (state = INITIAL_STATE, action) => {
                 todo : state.todo.concat(action.payload)
         })
 
-=======
-        case ActionTypes.USERNAME:
-            return ({
-                ...state,
-                userName: action.payload
-            })
-        case ActionTypes.CURRENTUSER:
-            return ({
-                ...state,
-                currentUser: action.payload
-            })   
-        case ActionTypes.ALLUSERS:
-            return ({
-                ...state,
-                users: action.payload
-            }) 
-        case ActionTypes.CHANGERECPUID:
-            return ({
-                ...state,
-                recipientID: action.payload
-            })
-        case ActionTypes.MESSAGES:
-            return ({
-                ...state,
-                messages: action.payload
-            })
->>>>>>> ffe0176b1413a63ca91e16cc7fdd9905d4d2aa9e
         default:
             return( state )
     }
