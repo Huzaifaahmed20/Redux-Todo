@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+const Actiontypes = {
+    TODO : 'TODO',
+    TODODELETE : 'TODODELETE',
+    TODOEDIT : 'TODOEDIT',
+    TODOEDITCANCEL : 'TODOEDITCANCEL',
+    UPDATEBUTTON : 'UPDATEBUTTON',
+    FIREBASE : 'FIREBASE',
+=======
+ const ActionTypes = {
+    USERNAME:'USERNAME',
+    CURRENTUSER:'CURRENTUSER',
+    ALLUSERS:'ALLUSERS',
+    MESSAGES: 'MESSAGES',
+    CHANGERECPUID: 'CHANGERECPUID'
+>>>>>>> ffe0176b1413a63ca91e16cc7fdd9905d4d2aa9e
+}
+
+export default Actiontypes;
